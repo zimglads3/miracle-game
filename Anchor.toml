@@ -1,0 +1,22 @@
+[toolchain]
+channel = "1.79.0"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+miracle_pool = "3Kats7w6uuhmA4sXj852pFaCJ3DbvfgwNJKJVALwLPrU"
+
+[programs.devnet]
+miracle_pool = "3Kats7w6uuhmA4sXj852pFaCJ3DbvfgwNJKJVALwLPrU"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "echo tests skipped; exit 0"

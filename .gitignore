@@ -1,0 +1,8 @@
+target
+.anchor
+test-ledger
+*.log
+*.json
+*.env
+.env
+.env.*
